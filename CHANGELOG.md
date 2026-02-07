@@ -58,21 +58,16 @@ NAMI/
 
 ### 🔧 Complete FIXME List
 
-- [ ] **nami/connectors/api_client.js:34** - Add rate limiting support
-- [ ] **nami/connectors/api_client.js:78** - Implement OAuth2 refresh token flow
-- [ ] **nami/connectors/database.js:12** - Add connection pooling support
-- [ ] **nami/connectors/database.js:89** - Implement query timeout handling
-- [ ] **nami/core/pipeline.js:23** - Add retry logic for failed pipeline stages
-- [ ] **nami/core/pipeline.js:67** - Implement checkpoint saving for long-running jobs
-- [ ] **nami/core/scheduler.js:45** - Handle timezone conversion for scheduled jobs
-- [ ] **nami/transforms/aggregator.js:56** - Optimize memory usage for large datasets
-- [ ] **nami/transforms/filter.js:21** - Add support for regex pattern matching
-- [ ] **nami/utils/config.js:8** - Add environment variable validation
-- [ ] **nami/utils/logger.js:15** - Add structured logging format
-- [ ] **nami/utils/logger.js:42** - Implement log rotation
-- [ ] **tests/pipeline.test.js:33** - Add integration tests for error scenarios
-- [ ] **tests/scheduler.test.js:19** - Add mock clock for time-based tests
-- [ ] **tests/scheduler.test.js:55** - Test edge cases for DST transitions
+- [ ] **nami/connectors/api_client.js:32** - Implement OAuth2 refresh token flow
+- [ ] **nami/connectors/database.js:6** - Add connection pooling support
+- [ ] **nami/connectors/database.js:17** - Implement query timeout handling
+- [ ] **nami/core/pipeline.js:32** - Implement checkpoint saving for long-running jobs
+- [ ] **nami/core/scheduler.js:13** - Handle timezone conversion for scheduled jobs
+- [ ] **nami/transforms/filter.js:9** - Add support for regex pattern matching
+- [ ] **nami/utils/config.js:6** - Add environment variable validation
+- [ ] **nami/utils/logger.js:7** - Add structured logging format
+- [ ] **tests/pipeline.test.js:13** - Add integration tests for error scenarios
+- [ ] **tests/scheduler.test.js:20** - Test edge cases for DST transitions
 
 ## 🤝 Contributing
 
