@@ -55,17 +55,13 @@ NAMI/
 
 | File | Line | Description |
 |------|------|-------------|
-| nami_py/connectors/api_client.py | 25 | FIXME: Implement OAuth2 refresh token flow |
-| nami_py/connectors/database.py | 10 | FIXME: Add connection pooling support |
-| nami_py/connectors/database.py | 24 | FIXME: Implement query timeout handling |
-| nami_py/core/pipeline.py | 28 | FIXME: Implement checkpoint saving for long-running jobs |
-| nami_py/core/scheduler.py | 15 | FIXME: Handle timezone conversion for scheduled jobs |
-| nami_py/transforms/aggregator.py | 18 | FIXME: Fix memory leak in group aggregation |
-| nami_py/transforms/filter.py | 12 | FIXME: Add support for regex pattern matching |
-| nami_py/utils/config.py | 12 | FIXME: Add environment variable validation |
-| nami_py/utils/logger.py | 9 | FIXME: Add structured logging format |
-| tests_py/test_pipeline.py | 15 | FIXME: Add integration tests for error scenarios |
-| tests_py/test_scheduler.py | 23 | FIXME: Test edge cases for DST transitions |
+| nami_py/connectors/database.py | 9 | FIXME: Add connection pooling support |
+| nami_py/connectors/database.py | 25 | FIXME: Implement query timeout handling |
+| nami_py/core/pipeline.py | 27 | FIXME: Implement checkpoint saving for long-running jobs |
+| nami_py/core/pipeline.py | 32 | FIXME: Add validation for circular dependencies |
+| nami_py/transforms/filter.py | 13 | FIXME: Add support for regex pattern matching |
+| nami_py/utils/logger.py | 10 | FIXME: Add structured logging format |
+| tests_py/test_scheduler.py | 20 | FIXME: Test edge cases for DST transitions |
 
 ### 🔴 Critical FIXME Items
 
