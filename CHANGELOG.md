@@ -6,6 +6,20 @@
 
 NAMI is a lightweight data pipeline framework for building ETL workflows in JavaScript/Node.js. It provides modular connectors, transforms, and scheduling capabilities.
 
+## [Unreleased]
+
+### Deprecated
+_No deprecated items found in Python source files._
+
+### FIXME
+- `nami_py/connectors/database.py:9`: FIXME: Add connection pooling support
+- `nami_py/connectors/database.py:25`: FIXME: Implement query timeout handling
+- `nami_py/core/pipeline.py:27`: FIXME: Implement checkpoint saving for long-running jobs
+- `nami_py/core/pipeline.py:32`: FIXME: Add validation for circular dependencies
+- `nami_py/transforms/filter.py:13`: FIXME: Add support for regex pattern matching
+- `nami_py/utils/logger.py:10`: FIXME: Add structured logging format
+- `tests_py/test_scheduler.py:20`: FIXME: Test edge cases for DST transitions
+
 ## 🔄 Version History
 
 ### v2.3.0 (Current Development)
