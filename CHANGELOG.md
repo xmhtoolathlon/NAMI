@@ -56,7 +56,7 @@ NAMI/
 - **Scheduler**: Timezone and DST handling
 - **Logger**: Structured logging and rotation
 
-### 🔧 Complete FIXME List
+## 🔧 Outstanding FIXME Items
 
 - [ ] **nami/connectors/api_client.js:32** - Implement OAuth2 refresh token flow
 - [ ] **nami/connectors/database.js:6** - Add connection pooling support
