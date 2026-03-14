@@ -9,7 +9,7 @@ NAMI is a lightweight data pipeline framework for building ETL workflows. It pro
 
 This repository is under active development. The Python implementation (`nami_py/`) is the current focus.
 
-### 🔧 Complete FIXME List
+### 🔧 Known Issues & FIXME List
 
 - [ ] **nami_py/connectors/database.py:9** - Add connection pooling support
 - [ ] **nami_py/connectors/database.py:25** - Implement query timeout handling
